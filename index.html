@@ -1,0 +1,30 @@
+<html>
+       <head>
+    <title>Animal Sounds</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body style="background-color: aquamarine;">
+       <center>
+    <div class=" header_div">
+        <h1> Animal Sounds</h1>
+        <hr>
+<p id="p">Animal Souds are there: Lions , Cats, Dogs,Background noises</p>
+    </center>
+<center>
+    </div>
+    <div class="page-header" id="main_div">
+
+           <button class="btn btn-success" onclick="startClassification();">Start</button>
+            <h4 id="Animal_name">Name Of The Animal : </h4><span id="result_animal_name"></span>
+            <h4 id="Animal_accuracy">Accuracy Of The Animal Voice : </h4><span id="result_animal_accuracy"></span>
+            <br><br>
+            <img id="animal_photo"src="Background.png">
+        </center>
+    </div>
+</body>
+</html>
